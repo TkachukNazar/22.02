@@ -74,7 +74,6 @@ function check() {
     let t = setTimeout(start, 500);
   } else {
     msg.innerHTML = "incorrect";
-    console.log("incorrect", phrase, "inp:", inp);
     dropField.innerHTML = "";
   }
 }
